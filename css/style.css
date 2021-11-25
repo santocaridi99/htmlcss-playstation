@@ -1,3 +1,5 @@
+/* ---utility */
+
 .bg-black{
     background-color: black;
 }
@@ -6,11 +8,13 @@
     color: white;
 }
 
-.nopad{
-    padding-top: 0;
-    padding-bottom: 0;
+.bcustom{
+    border-radius: 20px;
+    padding: 0 10px;
+    border-color: transparent;
 }
-
+/* ------------- */
+/* ---header----- */
 .lente{
     height: 40px;
     width: 30px;
@@ -19,12 +23,8 @@
     width: 100%;
     height: 100%;
 }
-
-.bcustom{
-    border-radius: 20px;
-    padding: 0 10px;
-    border-color: transparent;
-}
+/* ---------------- */
+/* ----Jumbotron--- */
 
 .jumbotron-content{
     color: white;
@@ -38,3 +38,9 @@
 .jumbotron-content>img{
    width: 60%;
 }
+/* ---------------- */
+/* ---contenitore items jumbo--- */
+.jumboitem{
+    border-radius: 10px;
+}
+/* ----------------------------- */
