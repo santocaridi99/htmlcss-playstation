@@ -20,6 +20,10 @@
     padding: 0 10px;
     border-color: transparent;
 }
+.jumbotron-content,.jumbotron-content2{
+    color: white;
+}
+
 /* ------------- */
 /* ---header----- */
 .lente{
@@ -33,9 +37,6 @@
 /* ---------------- */
 /* ----Jumbotron--- */
 
-.jumbotron-content{
-    color: white;
-}
 
 .bg-jumbo{
     height: 90vh;
@@ -58,6 +59,12 @@
 .item>p{
     text-align: center;
 }
-
- 
 /* ------------------ */
+/* ----Secondo jumbotron---- */
+.bg-jumbo2{
+    height: 90vh;
+    background:url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center center;
+}
+.jumbotron-content2>img{
+    width: 60%;
+}
