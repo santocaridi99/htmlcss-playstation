@@ -88,3 +88,25 @@
     width: 60%;
 }
 /* ------- */
+/* ---footer-- */
+.flogo>img{
+    width: 20%;
+}
+.globo>img{
+    width: 5%;
+    margin-right: 5px;
+}
+.list{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.slogo{
+    width: 50%;
+}
+/* ----------- */
