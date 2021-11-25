@@ -6,6 +6,11 @@
     color: white;
 }
 
+.nopad{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .lente{
     height: 40px;
     width: 30px;
@@ -18,5 +23,18 @@
 .bcustom{
     border-radius: 20px;
     padding: 0 10px;
+    border-color: transparent;
 }
 
+.jumbotron-content{
+    color: white;
+}
+
+.bg-jumbo{
+    height: 90vh;
+    background: url(../img/jumbo-bg.png) no-repeat center ;
+}
+
+.jumbotron-content>img{
+   width: 60%;
+}
