@@ -24,6 +24,10 @@
     color: white;
 }
 
+.jumboitem,.newgame{
+    border-radius: 10px;
+}
+
 /* ------------- */
 /* ---header----- */
 .lente{
@@ -51,9 +55,7 @@
 .itemplay{
     margin: 0 auto;
 }
-.jumboitem{
-    border-radius: 10px;
-}
+
 /* ----------------------------- */
 /* ---Playstation5--- */
 .item>p{
