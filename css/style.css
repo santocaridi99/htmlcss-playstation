@@ -7,6 +7,9 @@
 .bg-black{
     background-color: black;
 }
+.bg-blunotte{
+    background-color: rgb(9, 9, 49);
+}
 
 .white{
     color: white;
@@ -77,6 +80,11 @@
 /* ------------------------ */
 /* --plus-- */
 .plus>img{
+    width: 60%;
+}
+/* ------- */
+/* --now-- */
+.now>img{
     width: 60%;
 }
 /* ------- */
