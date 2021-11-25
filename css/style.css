@@ -1,5 +1,9 @@
 /* ---utility */
 
+.bg-grayplus{
+    background-color: rgb(141, 137, 137);
+}
+
 .bg-black{
     background-color: black;
 }
@@ -70,3 +74,9 @@
 .jumbotron-content2>img{
     width: 60%;
 }
+/* ------------------------ */
+/* --plus-- */
+.plus>img{
+    width: 60%;
+}
+/* ------- */
