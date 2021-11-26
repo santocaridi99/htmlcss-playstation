@@ -172,6 +172,9 @@ header{
 }
 /* ----------- */
 /* --hover---- */
+.nav-link:hover span{
+    color: blue;
+}
 .bcustom:hover{
     outline:3px solid black;
     outline-offset: -5px;
