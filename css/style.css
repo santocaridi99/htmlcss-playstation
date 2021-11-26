@@ -175,6 +175,7 @@ header{
 .nav-link:hover span{
     color: blue;
 }
+
 .bcustom:hover{
     outline:3px solid black;
     outline-offset: -5px;
@@ -197,7 +198,7 @@ header{
 }
 
 .bcustom.bplus:hover{
-    box-shadow: 2px 2px 2px 2px  #fff;
+    filter: drop-shadow(2px 4px 6px white);
     outline: none;
 }
 
