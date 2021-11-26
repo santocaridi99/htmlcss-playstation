@@ -50,8 +50,8 @@
 
 
 .bg-jumbo{
-    height: 90vh;
-    background: url(../img/jumbo-bg.png) no-repeat center ;
+    height: 600px;
+    background: url(../img/jumbo-bg.png) no-repeat center;
 }
 
 .jumbotron-content>img{
@@ -71,7 +71,6 @@
 /* ------------------ */
 /* ----Secondo jumbotron---- */
 .bg-jumbo2{
-    height: 90vh;
     background:url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat center center;
 }
 .jumbotron-content2>img{
