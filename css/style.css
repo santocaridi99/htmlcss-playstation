@@ -1,7 +1,7 @@
 /* ---utility */
 
 .bg-grayplus{
-    background-color: rgb(141, 137, 137);
+    background-color: rgb(184, 184, 184,1);
 }
 
 .bg-black{
@@ -9,6 +9,9 @@
 }
 .bg-blunotte{
     background-color: rgb(9, 9, 49);
+}
+.bg-blue{
+    background-color: rgb(17, 56, 222,1);
 }
 
 .white{
@@ -106,13 +109,15 @@ header{
 }
 /* ---------------- */
 /* ---contenitore items jumbo--- */
-.itemplay{
-    margin: 0 auto;
+
+.b-outline{
+   outline:3px solid rgb(35, 148, 241);
+   outline-offset: 4px;
 }
 
 /* ----------------------------- */
 /* ---Playstation5--- */
-.item>p{
+.itemplay5>p{
     text-align: center;
 }
 .borblu{
@@ -166,3 +171,29 @@ header{
     width: 50%;
 }
 /* ----------- */
+/* --hover---- */
+.bcustom:hover{
+    outline:3px solid black;
+    outline-offset: -5px;
+    transition: all 0.5s;
+}
+
+.btn-accedi:hover{
+    outline:3px solid white;
+    background-color: gray;
+    
+}
+
+.bg-primary.bcustom:hover{
+    outline-color: white;
+}
+
+.itemplay5:hover{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.bcustom.bplus:hover{
+    box-shadow: 2px 2px 2px 2px  #fff;
+    outline: none;
+}
