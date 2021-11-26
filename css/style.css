@@ -15,7 +15,7 @@
     color: white;
 }
 .blue{
-    color: blue;
+    color: rgb(35, 148, 241);
 }
 
 .gray{
@@ -34,6 +34,19 @@
 .jumboitem,.newgame{
     border-radius: 10px;
 }
+.grassetto{
+    font-weight: 600;
+}
+
+.fontjumbo{
+    font-size: 20px;
+}
+
+.underline{
+    text-decoration: underline
+}
+
+
 
 /* ------------- */
 /* ---header----- */
@@ -89,7 +102,7 @@ header{
 }
 
 .jumbotron-content>img{
-   width: 60%;
+   max-width: 60%;
 }
 /* ---------------- */
 /* ---contenitore items jumbo--- */
@@ -101,6 +114,12 @@ header{
 /* ---Playstation5--- */
 .item>p{
     text-align: center;
+}
+.borblu{
+    border-bottom: 3px solid rgb(35, 148, 241);
+}
+.opaca{
+    opacity: 0.5;
 }
 /* ------------------ */
 /* ----Secondo jumbotron---- */
