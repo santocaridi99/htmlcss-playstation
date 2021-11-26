@@ -63,7 +63,7 @@ header{
 }
 
 .nav-item{
-    margin-left: 50px;
+  padding-right: 10px;
 }
 
 .nav-item>a{
