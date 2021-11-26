@@ -81,8 +81,11 @@ header{
 
 
 .bg-jumbo{
-    height:600px;
+    height:900px;
     background: url(../img/jumbo-bg.png) no-repeat center;
+}
+.jumbotron-content{
+    padding-top: 250px;
 }
 
 .jumbotron-content>img{
