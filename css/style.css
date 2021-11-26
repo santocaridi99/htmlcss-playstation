@@ -197,3 +197,8 @@ header{
     box-shadow: 2px 2px 2px 2px  #fff;
     outline: none;
 }
+
+.jumboitem:hover{
+    position: relative;
+    bottom: 20px;
+}
