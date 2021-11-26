@@ -15,7 +15,6 @@
 
 <body>
     <header>
-         <!-- ricordarsi che è fixed -->
         <!-- organizzo header con un div bg nero con un logo e una navbar -->
         <div class="container-fluid d-flex justify-content-end bg-black py-2">
             <div class="logo col-1">
@@ -23,39 +22,60 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid   flex-lg-row">
+            <div class="container-fluid flex-row-reverse  flex-lg-row">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-brand">
+                <div class="navbar-brand brand">
                     <img src="./img/play_logo.svg" alt="play_logo">
                 </div>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span>Giochi</span>
+                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Link</a>
+                            <a class="nav-link active" href="#">
+                                <span>Hardware</span>
+                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
+                                <span>Servizi</span>
+                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
+                                <span>Novità</span>
+                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
+                                <span>Fai acquisti</span>
+                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
+                                <span>Supporto</span>
+                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                            </a>
                         </li>
                     </ul>
-                    <div class="d-flex comands">
-                        <a class="nav-link active me-3" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <div class="d-flex nav-item">
+                        <a class="nav-link me-3" href="#" tabindex="-1" aria-disabled="true">
+                            <span>My PlayStation</span>
+                            <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                        </a>
                         <button class="white bcustom bg-dark me-3" type="submit">Accedi</button>
                         <div class="lente">
                             <img src="./img/lens.svg" alt="lens">
@@ -263,7 +283,7 @@
                         <img class="img-fluid" src="./img/double11-202010-tw-psvr.jpg" alt="double11-202010-tw-psvr">
                         <h2>PlayStation VR</h2>
                         <p class="gray">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                        <button class="bcustom bg-primary white">Scopri di più</button>
+                        <button class="bcustom bg-primary white mt-4">Scopri di più</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
