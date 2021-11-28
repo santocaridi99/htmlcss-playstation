@@ -203,13 +203,13 @@ header{
 }
 
 .jumboitem:hover{
-    position: relative;
     animation-name: float;
     animation-duration: 1s;
 }
 
 @keyframes float {
    100%{
+       position: relative;
        bottom: 10px;
    }
     
