@@ -23,66 +23,106 @@
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid flex-row-reverse  flex-lg-row">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-brand brand">
-                    <img src="./img/play_logo.svg" alt="play_logo">
-                </div>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <span>Giochi</span>
-                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">
-                                <span>Hardware</span>
-                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
-                                <span>Servizi</span>
-                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
-                                <span>Novità</span>
-                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
-                                <span>Fai acquisti</span>
-                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">
-                                <span>Supporto</span>
-                                <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="d-flex nav-item">
-                        <a class="nav-link me-3" href="#" tabindex="-1" aria-disabled="true">
-                            <span>My PlayStation</span>
-                            <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                        <a class="nav-link active d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span>Giochi</span>
+                          <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
                         </a>
-                        <button class="white bcustom btn-accedi bg-black me-3" type="submit">Accedi</button>
-                        <div class="lente">
-                            <img src="./img/lens.svg" alt="lens">
-                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                        <a class="nav-link active  d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <span>Hardware</span>
+                           <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span>Servizi</span>
+                      <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span>Novità</span>
+                      <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span>Fai acquisti</span>
+                      <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span>Supporto</span>
+                      <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                    <li class="nav-item active dropdown nostyle">
+                        <a class="nav-link d-flex align-items-center" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           <span>My Playstation</span>
+                          <img src="./img/chevron-down-solid.svg" alt="chevron-down-solid">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <button class="white bcustom btn-accedi bg-black me-3" type="submit">Accedi</button>
+                    <div class="lente">
+                        <img src="./img/lens.svg" alt="lens">
                     </div>
-                </div>
+                  
+                </form>
+              </div>
             </div>
         </nav>
     </header>
