@@ -97,6 +97,13 @@ li.nostyle{
     list-style: none;
 }
 
+
+.dstyle{
+    list-style: disc;
+    color: blue;
+    margin-left: 20px;
+}
+
 /* ----------------- */
 /* --Dropdown-menu--- */
 
@@ -243,3 +250,4 @@ li.nostyle{
 }
 
 }
+
