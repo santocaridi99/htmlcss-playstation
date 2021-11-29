@@ -235,3 +235,11 @@ li.nostyle{
    top: -10px;
 }
 
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: fixed;
+    width: 100%;
+    top: 113px;
+}
+
+}
