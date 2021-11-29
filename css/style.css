@@ -35,7 +35,7 @@
 }
 
 .jumboitem,.newgame{
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .grassetto{
     font-weight: 600;
@@ -209,15 +209,13 @@ li.nostyle{
     outline: none;
 }
 
-.jumboitem:hover{
-    animation-name: float;
-    animation-duration: 1s;
+.jumboitem{
+    position: relative;
+    top: 0;
+    transition: all 0.5s ease-in-out;
 }
 
-@keyframes float {
-   100%{
-       position: relative;
-       bottom: 10px;
-   }
-    
+.jumboitem:hover{
+   top: -10px;
 }
+
