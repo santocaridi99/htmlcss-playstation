@@ -69,7 +69,7 @@ header{
 }
 
 
-.nav-link>img{
+.nav-link>img,.nav-link>svg{
     height: 25px;
     width: 10px;
     padding-top: 5px;
@@ -186,6 +186,9 @@ li.nostyle{
 /* --hover---- */
 .nav-link:hover span{
     color: blue;
+}
+.nav-link:hover svg path{ 
+    fill: blue;
 }
 
 .bcustom:hover{
