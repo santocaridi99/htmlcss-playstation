@@ -34,6 +34,7 @@
     color: white;
 }
 
+/* --border-radius customizzato perchè rounded-3 di bootstrap usa meno px */
 .jumboitem,.newgame{
     border-radius: 15px;
 }
@@ -41,9 +42,6 @@
     font-weight: 600;
 }
 
-.fontjumbo{
-    font-size: 20px;
-}
 
 .underline{
     text-decoration: underline
