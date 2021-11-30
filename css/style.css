@@ -1,5 +1,6 @@
 /* ---utility */
 
+/* colori sono tutti custom */
 .bg-grayplus{
     background-color: rgb(184, 184, 184,1);
 }
@@ -38,10 +39,10 @@
 .jumboitem,.newgame{
     border-radius: 15px;
 }
+/* grassetto custom */
 .grassetto{
     font-weight: 600;
 }
-
 /* ------------- */
 /* ---header----- */
 header{
@@ -62,16 +63,6 @@ header{
 .nav-link>svg{
     height: 25px;
     width: 10px;
-    padding-top: 5px;
-    margin-left:10px;
-}
-
-.brand{
-    margin-right: 20px;
-}
-
-.nav-item{
-  padding-right: 10px;
 }
 
 .nav-item>a{
@@ -90,7 +81,6 @@ li.nostyle{
 .dstyle{
     list-style: disc;
     color: blue;
-    margin-left: 20px;
 }
 /* ----------------- */
 /* --Dropdown-menu--- */
